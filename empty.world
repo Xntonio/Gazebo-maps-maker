@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+<scene>
+  <ambient>255 255 255 1</ambient>
+  <background>255 255 255 1</background>
+  <shadows>true</shadows>
+</scene>
+
+ <!-- MAP MADE OF BOXS -->
+
+<include>
+<uri>model://big_box</uri>
+<pose>0 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>0 -4 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>2 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>2 -4 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>4 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>4 -4 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>6 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>6 -6 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>8 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>8 -7 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>10 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>10 -9 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>12 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>12 -10 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>14 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>14 2 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>14 -10 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>15 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>16 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>16 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>18 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>18 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>18 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>20 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>20 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>20 -5 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>20 -6 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>20 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>22 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>22 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>22 -5 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>22 -6 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>22 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>24 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>24 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>24 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>26 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>26 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>26 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>28 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>28 3 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>28 -13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>31 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>31 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>33 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>33 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>34 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>34 -11 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>35 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>36 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>36 1 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>36 0 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>36 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>37 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>37 12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>38 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>38 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>39 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>39 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>41 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>43 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>43 -12 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>45 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>45 -13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>47 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>47 -13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>49 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>49 1 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>49 0 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>49 -13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>51 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>51 -13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>53 13 0 0 0 0</pose>
+</include>
+<include>
+<uri>model://big_box</uri>
+<pose>53 -13 0 0 0 0</pose>
+</include>
+
+
+ <!-- END MAP MADE OF BOXS -->
+
+    <physics name='default_physics' default='0' type='ode'>
+      <gravity>0 0 -9.8066</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>10</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+      <magnetic_field>6.0e-6 2.3e-5 -4.2e-5</magnetic_field>
+    </physics>
+  </world>
+</sdf>
